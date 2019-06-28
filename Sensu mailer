@@ -1,0 +1,140 @@
+sudo sensu-install -v -p mialer
+[sudo] password for gkadmin:
+[SENSU-INSTALL] installing Sensu plugins ...
+[SENSU-INSTALL] provided Sensu plugins: ["mialer"]
+[SENSU-INSTALL] compiled Sensu plugin gems: ["sensu-plugins-mialer"]
+[SENSU-INSTALL] determining if Sensu gem 'sensu-plugins-mialer' is already installed ...
+[SENSU-INSTALL] gem list -i sensu-plugins-mialer
+false
+[SENSU-INSTALL] Sensu gem 'sensu-plugins-mialer' has not been installed
+[SENSU-INSTALL] Sensu plugin gems to be installed: ["sensu-plugins-mialer"]
+[SENSU-INSTALL] installing Sensu gem 'sensu-plugins-mialer'
+[SENSU-INSTALL] gem install sensu-plugins-mialer --no-ri --no-rdoc --verbose
+HEAD https://api.rubygems.org/api/v1/dependencies
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=sensu-plugins-mialer
+200 OK
+ERROR:  Could not find a valid gem 'sensu-plugins-mialer' (>= 0) in any repository
+GET https://api.rubygems.org/latest_specs.4.8.gz
+200 OK
+ERROR:  Possible alternatives: sensu-plugins-mailer, sensu-plugins-filenr, sensu-plugins-talker, sensu-plugins-docker, sensu-plugins-gitlab
+[SENSU-INSTALL] failed to install Sensu gem 'sensu-plugins-mialer'
+[SENSU-INSTALL] please take note of any failure messages above
+[SENSU-INSTALL] make sure you have build tools installed (e.g. gcc)
+[SENSU-INSTALL] trying to determine the Sensu plugin homepage for sensu-plugins-mialer ...
+ERROR:  No gem matching 'sensu-plugins-mialer (>= 0)' found
+gkadmin@bd_server00:~$ clear
+gkadmin@bd_server00:~$ sudo sensu-install -v -p mailer
+[SENSU-INSTALL] installing Sensu plugins ...
+[SENSU-INSTALL] provided Sensu plugins: ["mailer"]
+[SENSU-INSTALL] compiled Sensu plugin gems: ["sensu-plugins-mailer"]
+[SENSU-INSTALL] determining if Sensu gem 'sensu-plugins-mailer' is already installed ...
+[SENSU-INSTALL] gem list -i sensu-plugins-mailer
+false
+[SENSU-INSTALL] Sensu gem 'sensu-plugins-mailer' has not been installed
+[SENSU-INSTALL] Sensu plugin gems to be installed: ["sensu-plugins-mailer"]
+[SENSU-INSTALL] installing Sensu gem 'sensu-plugins-mailer'
+[SENSU-INSTALL] gem install sensu-plugins-mailer --no-ri --no-rdoc --verbose
+HEAD https://api.rubygems.org/api/v1/dependencies
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=sensu-plugins-mailer
+200 OK
+Getting SRV record failed: DNS result has no information for _rubygems._tcp.api.rubygems.org
+GET https://api.rubygems.org/quick/Marshal.4.8/sensu-plugins-mailer-4.0.0.gemspec.rz
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=aws-ses,erubis,mail,mailgun-ruby,ruby-ntlm,sensu-plugin
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=mime-types
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=json,mixlib-cli
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=rest-client
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=http-cookie,netrc
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=builder,xml-simple
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=domain_name
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=unf
+200 OK
+GET https://api.rubygems.org/api/v1/dependencies?gems=unf_ext
+200 OK
+GET https://api.rubygems.org/quick/Marshal.4.8/unf_ext-0.0.7.6.gemspec.rz
+200 OK
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/.document
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/.gitignore
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/.travis.yml
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/CHANGELOG.md
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/Gemfile
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/LICENSE.txt
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/README.md
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/Rakefile
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/extconf.rb
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf.cc
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/normalizer.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/table.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/trie/char_stream.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/trie/node.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/trie/searcher.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext/unf/util.hh
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/lib/unf_ext.rb
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/lib/unf_ext/version.rb
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/test/helper.rb
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/test/normalization-test.txt
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/test/test_unf_ext.rb
+/opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/unf_ext.gemspec
+Building native extensions. This could take a while...
+current directory: /opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+/opt/sensu/embedded/bin/ruby -r ./siteconf20190628-5714-1m6ao16.rb extconf.rb
+checking for -lstdc++... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/opt/sensu/embedded/bin/$(RUBY_BASE_NAME)
+        --with-static-libstdc++
+        --without-static-libstdc++
+        --with-stdc++lib
+        --without-stdc++lib
+/opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:468:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:553:in `try_link0'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:568:in `try_link'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:787:in `try_func'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:1014:in `block in have_library'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:957:in `block in checking_for'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:351:in `block (2 levels) in postpone'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:321:in `open'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:351:in `block in postpone'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:321:in `open'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:347:in `postpone'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:956:in `checking_for'
+        from /opt/sensu/embedded/lib/ruby/2.4.0/mkmf.rb:1009:in `have_library'
+        from extconf.rb:6:in `<main>'
+ERROR:  Error installing sensu-plugins-mailer:
+        ERROR: Failed to build gem native extension.
+
+    Building has failed. See above output for more information on the failure.
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /opt/sensu/embedded/lib/ruby/gems/2.4.0/extensions/x86_64-linux/2.4.0/unf_ext-0.0.7.6/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /opt/sensu/embedded/lib/ruby/gems/2.4.0/gems/unf_ext-0.0.7.6 for inspection.
+Results logged to /opt/sensu/embedded/lib/ruby/gems/2.4.0/extensions/x86_64-linux/2.4.0/unf_ext-0.0.7.6/gem_make.out
+[SENSU-INSTALL] failed to install Sensu gem 'sensu-plugins-mailer'
+[SENSU-INSTALL] please take note of any failure messages above
+[SENSU-INSTALL] make sure you have build tools installed (e.g. gcc)
+[SENSU-INSTALL] trying to determine the Sensu plugin homepage for sensu-plugins-mailer ...
